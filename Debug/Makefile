@@ -27,7 +27,7 @@ LDFLAGS = -L"../ldscripts/" -T ldmain.lds -nostartfiles -nostdlib --gc-sections 
 
 SRCDIR = ../src
 OUTDIR = ../Debug
-TARGET = bootloader
+TARGET = hyperos
 
 # Source files and objects
 TSRC = $(wildcard $(SRCDIR)/*.c $(SRCDIR)/*/*.c)
